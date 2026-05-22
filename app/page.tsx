@@ -36,7 +36,7 @@ export default function Home() {
       </h1>
       <p className="text-2xl text-gray-700">
         <span className="text-cyan-700 font-semibold">Software Engineer </span> 
-        <span className="text-black">| Backend-focused engineer optimizing system performance and user experiences for 10,000+ MAU, bridging technical solutions with sales and marketing insights.</span>
+        <span className="text-black">| Backend-focused engineer optimising system performance and user experiences for 10,000+ MAU, bridging technical solutions with sales and marketing insights.</span>
       </p>
     </section>
     <section className="w-full bg-white mb-16">
