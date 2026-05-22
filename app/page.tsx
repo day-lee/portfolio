@@ -35,42 +35,36 @@ export default function Home() {
         <span className="animate-wiggle-more animate-delay-400 animate-twice">👋</span> 
       </h1>
       <p className="text-2xl text-gray-700">
-        <span className="text-cyan-700 font-semibold"> Full-stack Software Engineer </span> 
-        <span className="text-black">optimised user experiences and system performance for 10,000+ monthly active users, bringing sales and marketing perspective to technical solutions.</span>
+        <span className="text-cyan-700 font-semibold">Software Engineer </span> 
+        <span className="text-black">| Backend-focused engineer optimizing system performance and user experiences for 10,000+ MAU, bridging technical solutions with sales and marketing insights.</span>
       </p>
     </section>
     <section className="w-full bg-white mb-16">
      <h2 className="text-2xl font-semibold mb-4">About</h2>
     <div className="text-xl"> 
-       <span className="text-gray-700">I’m based in London and currently work at </span>
-       <span className="text-black font-semibold"> Code Your Future as a Software Engineer. </span> 
-       <p className="text-gray-700 block"> This year, <span className="text-cyan-700 font-semibold"> I won a hackathon</span>,
-        which made me <span className="text-cyan-700 font-semibold">realise how enjoyable it is to bring ideas to life</span> and <span className="text-cyan-700 font-semibold">to work in a diverse team. </span> </p>
-       <span className="text-gray-700 inline-block"> My current tech stack includes </span> 
-       <span className="text-black font-semibold"> TypeScript, JavaScript, React, Next.js, Node.js, Jest, PostgreSQL, MongoDB, Tailwind CSS and Supabase. </span>
-       <span className="text-gray-700 inline-block">In addition to frontend work, I have experience with </span>
-      <span className="text-black font-semibold"> MySQL, AWS, Python, Django, and Docker.</span>
+       <span className="text-gray-700">Based in London, I am currently working as a </span>
+       <span className="text-black font-semibold"> Software Engineer at Code Your Future.</span> 
+       <p className="text-gray-700 block"> Last year, <span className="text-cyan-700 font-semibold"> I won a hackathon,
+       which sparked my passion for bringing ideas to life and collaborating with diverse teams.</span> </p>
+       <span className="text-gray-700 inline-block"> My core tech stack includes </span> 
+       <span className="text-black font-semibold">  Python, Django, FastAPI, SQL, and MongoDB, with a strong expertise in CI/CD pipelines and cross-functional backend architectures. </span> <p > Leveraging a solid understanding of front-end ecosystems from my recent experience,</p> <p className="text-cyan-700 font-semibold">I excel at designing seamless backend architectures and robust API integrations.</p>
     </div>
     </section>
     <section className="w-full bg-white mb-32">
       <h2 className="text-2xl font-semibold mb-4">Skills</h2>
       <div className="grid grid-cols-3 md:grid-cols-5 gap-8 mb-16">
         <div className="flex flex-col items-center text-sm text-gray-600 gap-2">
-          <img className="w-12 h-12 object-contain" alt="React" loading="lazy" width="48" height="48" src="https://cdn.simpleicons.org/typescript" />
-           <p>TypeScript</p>
+        <img className="w-12 h-12 object-contain" alt="Python" loading="lazy" width="48" height="48" src="https://cdn.simpleicons.org/python" />
+          <p>Python</p>
         </div>
         <div className="flex flex-col items-center text-sm text-gray-600 gap-4">
-          <img className="w-12 h-12 object-contain" alt="React" loading="lazy" width="48" height="48" src="https://cdn.simpleicons.org/javascript" />
-           <p>JavaScript</p>
+          <img className="w-12 h-12 object-contain" alt="Django" loading="lazy" width="48" height="48" src="https://cdn.simpleicons.org/django" />
+           <p>Django</p>
         </div>
         <div className="flex flex-col items-center text-sm text-gray-600 gap-4">
-          <img className="w-12 h-12 object-contain" alt="React" loading="lazy" width="48" height="48" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
-           <p>React</p>
-        </div>
-        <div className="flex flex-col items-center text-sm text-gray-600 gap-4">
-          <img className="w-12 h-12 object-contain" alt="Next.js" loading="lazy" width="48" height="48" src="https://i18nexus.com/_next/static/media/nextjs.e54be70c.svg"></img>
-           <p>Next.js</p>
-        </div>
+          <img className="w-12 h-12 object-contain" alt="FastAPI" loading="lazy" width="48" height="48" src="https://cdn.simpleicons.org/fastapi" />
+            <p>FastAPI</p>
+        </div>  
         {/* <div className="flex flex-col items-center text-sm text-gray-600 gap-4">
           <Image src={fallback} alt="Node.js" width={50} height={50} />
            <p>Node.js</p>
@@ -80,8 +74,12 @@ export default function Home() {
            <p>Express.js</p>
         </div> */}
         <div className="flex flex-col items-center text-sm text-gray-600 gap-4">
-          <img className="w-12 h-12 object-contain" alt="Next.js" loading="lazy" width="48" height="48" src="https://cdn.simpleicons.org/jest"></img>
-           <p>Jest</p>
+          <img className="w-12 h-12 object-contain" alt="React" loading="lazy" width="48" height="48" src="https://cdn.simpleicons.org/typescript" />
+           <p>TypeScript</p>
+        </div>
+        <div className="flex flex-col items-center text-sm text-gray-600 gap-4">
+          <img className="w-12 h-12 object-contain" alt="Next.js" loading="lazy" width="48" height="48" src="https://i18nexus.com/_next/static/media/nextjs.e54be70c.svg"></img>
+           <p>Next.js</p>
         </div>
         {/* <div className="flex flex-col items-center text-sm text-gray-600 gap-4">
           <Image src={fallback} alt="MySQL" width={50} height={50} />
@@ -100,8 +98,8 @@ export default function Home() {
            <p>PostgreSQL</p>
         </div>
         <div className="flex flex-col items-center text-sm text-gray-600 gap-4">
-          <img className="w-12 h-12 object-contain" alt="Supabase" loading="lazy" width="48" height="48" src="https://meta-l.cdn.bubble.io/f1685632623945x484360545462020800/supabase-logo-icon.png" />
-           <p>Supabase</p>
+          <img className="w-12 h-12 object-contain" alt="Git" loading="lazy" width="48" height="48" src="https://cdn.simpleicons.org/git" />
+          <p>Git</p>
         </div>        
         <div className="flex flex-col items-center text-sm text-gray-600 gap-4">
           <img className="w-12 h-12 object-contain" alt="Next.js" loading="lazy" width="48" height="48" src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" />
