@@ -127,7 +127,78 @@ export default function Home() {
           <p>From Ideas to Reality</p>
           <p className="text-lg">Check out my work</p> </h2>
       </div>
+
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+        <div className="rounded-lg border border-solid">
+            <div className="relative w-full overflow-hidden rounded-t-lg bg-black pb-[56.25%]">
+              <iframe className="absolute inset-0 h-full w-full border-0" src="https://www.youtube.com/embed/V3JBo055WPk?loop=1&playlist=V3JBo055WPk&autoplay=1&mute=1&si=tuk_-19Q5iXXK6tF&amp;controls=0&amp;start=228" 
+                  title="YouTube solosync video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen>
+              </iframe>
+            </div>
+          <div className="mx-2 my-4 p-4">
+            <div className="flex justify-between items-center mb-4">
+              <h3 className="text-xl font-bold text-gray-900">LinkedIn Job Filter</h3>
+              <p className="mr-4">2026</p>
+            </div>
+            <div className="font-sans text-[16px] max-w-full h-36">
+             <div className="mb-1"> <span className="font-bold"> • Built a LinkedIn job filtering app</span> using an AI agent to automatically filter and save job data into Google Sheets. <span className="font-bold"></span>  </div>
+             <div className="mb-1"> • Utilised Apify to safely and efficiently scrape data. </div>
+            </div>
+            </div>
+          <div className="flex flex-col mx-4">
+            <div className="flex flex-wrap gap-2 justify-start mt-4 text-gray-700">
+              <span className="inline-flex border border-red-700 py-1 px-2 h-7 rounded-md">Automation</span>
+            </div>
+            <div className="flex gap-2 mt-4 flex-wrap h-14">
+              <div className="flex items-center bg-gray-100 py-1 px-2 h-6 rounded-md text-gray-700">FastAPI</div>
+              <div className="flex items-center bg-gray-100 py-1 px-2 h-6 rounded-md text-gray-700">Python</div>
+              <div className="flex items-center bg-gray-100 py-1 px-2 h-6 rounded-md text-gray-700">React</div>
+              <div className="flex items-center bg-gray-100 py-1 px-2 h-6 rounded-md text-gray-700">JavaScript</div>
+              <div className="flex items-center bg-gray-100 py-1 px-2 h-6 rounded-md text-gray-700">Apify</div>
+            </div>
+          </div>
+          <div className="flex gap-4 m-4 justify-center">
+            <a target="_blank" href="https://day-lee.github.io/blog/posts/how-agentic-coding-transformed-my-junior-dev-workflow-in-just-2-days/" className="flex items-center rounded-md bg-white border border-solid px-3 h-8 text-black text-lg hover:"> Blog Post </a>
+            <a target="_blank" href="https://github.com/day-lee/job-application-automation" className="flex items-center rounded-md bg-gray-800 px-3 h-8 text-white text-lg"> Github </a>
+          </div>
+        </div> 
+        <div className="rounded-lg border border-solid">
+            <div className="relative w-full overflow-hidden rounded-t-lg bg-black pb-[56.25%]">
+              <iframe className="absolute inset-0 h-full w-full border-0" src="https://www.youtube.com/embed/ADVOlJp5HXg?loop=1&playlist=ADVOlJp5HXg&autoplay=1&mute=1&si=tuk_-19Q5iXXK6tF&amp;controls=0&amp;start=228" 
+
+                  title="YouTube solosync video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen>
+              </iframe>
+            </div>
+          <div className="mx-2 my-4 p-4">
+            <div className="flex justify-between items-center mb-4">
+              <h3 className="text-xl font-bold text-gray-900">HelloMeds - <span className="text-[16px]">Hackathon Project</span></h3>
+              <p className="mr-4">2026</p>
+            </div>
+            <div className="font-sans text-[16px] max-w-full h-36">
+              <div className="mb-1"> • An <span className="font-bold">AI-powered medication reminder system </span> that calls you instead of a generic alarm. </div>              
+             <div className="mb-1"> • Built a <span className="font-bold">real-time AI voice assistant</span> using Twilio, Gemini LLM, FastAPI, and WebSockets.  </div>         
+            </div>
+            </div>
+          <div className="flex flex-col mx-4">
+            <div className="flex flex-wrap gap-2 justify-start mt-4 text-gray-700">
+              <span className="inline-flex border border-red-700 py-1 px-2 h-7 rounded-md">Gemini API</span>
+              <span className="inline-flex border border-red-700 py-1 px-2 h-7 rounded-md">Twilio API</span>
+              <span className="inline-flex border border-red-700 py-1 px-2 h-7 rounded-md">Copilot</span>
+            </div>
+            <div className="flex gap-2 mt-4 flex-wrap h-14">
+              <div className="flex items-center bg-gray-100 py-1 px-2 h-6 rounded-md text-gray-700">Python</div>
+              <div className="flex items-center bg-gray-100 py-1 px-2 h-6 rounded-md text-gray-700">JavaScript</div>
+              <div className="flex items-center bg-gray-100 py-1 px-2 h-6 rounded-md text-gray-700">React</div>
+              <div className="flex items-center bg-gray-100 py-1 px-2 h-6 rounded-md text-gray-700">Git / Github</div>
+            </div>
+          </div>
+          <div className="flex gap-4 m-4 justify-center">
+            <a target="_blank" href="https://www.hackathonparty.com/hackathons/29/projects/465" className="flex items-center rounded-md bg-white border border-solid px-3 h-8 text-black text-lg hover:"> Details </a>            
+            <a target="_blank" href="https://github.com/day-lee/hellomeds-wit-hackathon-2026" className="flex items-center rounded-md bg-gray-800 px-3 h-8 text-white text-lg"> Github </a>
+          </div>
+        </div>         
         <div className="rounded-lg border border-solid">
             <div className="relative w-full overflow-hidden rounded-t-lg bg-black pb-[56.25%]">
               <iframe className="absolute inset-0 h-full w-full border-0" src="https://www.youtube.com/embed/Gd6XfAiI7pc?loop=1&playlist=Gd6XfAiI7pc&autoplay=1&mute=1&si=tuk_-19Q5iXXK6tF&amp;controls=0&amp;start=228" 
@@ -137,7 +208,7 @@ export default function Home() {
             </div>
           <div className="mx-2 my-4 p-4">
             <div className="flex justify-between items-center mb-4">
-              <h3 className="text-xl font-bold text-gray-900">Solo Sync - Hackathon Project</h3>
+              <h3 className="text-xl font-bold text-gray-900">Solo Sync - <span className="text-[16px]">Hackathon Project</span></h3>
               <p className="mr-4">2025</p>
             </div>
             <div className="font-sans text-[16px] max-w-full h-36">
