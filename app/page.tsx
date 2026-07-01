@@ -36,7 +36,7 @@ export default function Home() {
       </h1>
       <p className="text-2xl text-gray-700">
         <span className="text-cyan-700 font-semibold">Software Engineer </span> 
-        <span className="text-black">| Backend-focused engineer optimising system performance and user experiences for 10,000+ MAU, bridging technical solutions with sales and marketing insights.</span>
+        <span className="text-black">| Data-driven engineer optimising system performance and user experiences for 10,000+ MAU, bridging technical solutions with commercial insights.</span>
       </p>
     </section>
     <section className="w-full bg-white mb-16">
@@ -47,7 +47,7 @@ export default function Home() {
        <p className="text-gray-700 block"> Last year, <span className="text-cyan-700 font-semibold"> I won a hackathon,
        which sparked my passion for bringing ideas to life and collaborating with diverse teams.</span> </p>
        <span className="text-gray-700 inline-block"> My core tech stack includes </span> 
-       <span className="text-black font-semibold">  Python, Django, FastAPI, SQL, and MongoDB, with a strong expertise in CI/CD pipelines and cross-functional backend architectures. </span> <p > Leveraging a solid understanding of front-end ecosystems from my recent experience,</p> <p className="text-cyan-700 font-semibold">I excel at designing seamless backend architectures and robust API integrations.</p>
+       <span className="text-black font-semibold">  Python, SQL, NoSQL, FastAPI and Django with a strong expertise in AWS, CI/CD pipelines and cross-functional backend architectures. </span> <p > Leveraging a solid understanding of front-end ecosystems from my recent experience,</p> <p className="text-cyan-700 font-semibold">I excel at designing seamless backend architectures and robust API integrations.</p>
     </div>
     </section>
     <section className="w-full bg-white mb-32">
@@ -58,45 +58,29 @@ export default function Home() {
           <p>Python</p>
         </div>
         <div className="flex flex-col items-center text-sm text-gray-600 gap-4">
+          <img className="w-12 h-12 object-contain" alt="MySQL" loading="lazy" width="48" height="48" src="https://www.vectorlogo.zone/logos/mysql/mysql-icon.svg" />
+          <p>MySQL</p>
+        </div>
+        <div className="flex flex-col items-center text-sm text-gray-600 gap-4">
+          <img className="w-12 h-12 object-contain" alt="PostgreSQL" loading="lazy" width="48" height="48" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" />
+           <p>PostgreSQL</p>
+        </div>
+        <div className="flex flex-col items-center text-sm text-gray-600 gap-4">
+          <img className="w-12 h-12 object-contain" alt="MongoDB" loading="lazy" width="48" height="48" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" />
+           <p>MongoDB</p>
+        </div>
+        <div className="flex flex-col items-center text-sm text-gray-600 gap-4">
+          <img className="w-12 h-12 object-contain" alt="Docker" loading="lazy" width="48" height="48" src="https://cdn.simpleicons.org/docker" />
+           <p>Docker</p>
+        </div>
+        {/* <div className="flex flex-col items-center text-sm text-gray-600 gap-4">
           <img className="w-12 h-12 object-contain" alt="Django" loading="lazy" width="48" height="48" src="https://cdn.simpleicons.org/django" />
            <p>Django</p>
-        </div>
+        </div> */}
         <div className="flex flex-col items-center text-sm text-gray-600 gap-4">
           <img className="w-12 h-12 object-contain" alt="FastAPI" loading="lazy" width="48" height="48" src="https://cdn.simpleicons.org/fastapi" />
             <p>FastAPI</p>
         </div>  
-        {/* <div className="flex flex-col items-center text-sm text-gray-600 gap-4">
-          <Image src={fallback} alt="Node.js" width={50} height={50} />
-           <p>Node.js</p>
-        </div>
-        <div className="flex flex-col items-center text-sm text-gray-600 gap-4">
-          <Image src={fallback} alt="Express.js" width={50} height={50} />
-           <p>Express.js</p>
-        </div> */}
-        <div className="flex flex-col items-center text-sm text-gray-600 gap-4">
-          <img className="w-12 h-12 object-contain" alt="React" loading="lazy" width="48" height="48" src="https://cdn.simpleicons.org/typescript" />
-           <p>TypeScript</p>
-        </div>
-        <div className="flex flex-col items-center text-sm text-gray-600 gap-4">
-          <img className="w-12 h-12 object-contain" alt="Next.js" loading="lazy" width="48" height="48" src="https://i18nexus.com/_next/static/media/nextjs.e54be70c.svg"></img>
-           <p>Next.js</p>
-        </div>
-        {/* <div className="flex flex-col items-center text-sm text-gray-600 gap-4">
-          <Image src={fallback} alt="MySQL" width={50} height={50} />
-           <p>MySQL</p>
-        </div> */}
-        {/* <div className="flex flex-col items-center text-sm text-gray-600 gap-4">
-          <img className="w-12 h-12 object-contain" alt="Tailwind CSS" loading="lazy" width="48" height="48" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/1200px-Tailwind_CSS_Logo.svg.png" />
-           <p>Tailwind CSS</p>
-        </div> */}
-        <div className="flex flex-col items-center text-sm text-gray-600 gap-4">
-          <img className="w-12 h-12 object-contain" alt="Node.js" loading="lazy" width="48" height="48" src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/nodedotjs.svg" />
-           <p>Node.js</p>
-        </div>        
-        <div className="flex flex-col items-center text-sm text-gray-600 gap-4">
-          <img className="w-12 h-12 object-contain" alt="Next.js" loading="lazy" width="48" height="48" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" />
-           <p>PostgreSQL</p>
-        </div>
         <div className="flex flex-col items-center text-sm text-gray-600 gap-4">
           <img className="w-12 h-12 object-contain" alt="Git" loading="lazy" width="48" height="48" src="https://cdn.simpleicons.org/git" />
           <p>Git</p>
@@ -106,17 +90,17 @@ export default function Home() {
            <p>AWS</p>
         </div>
         <div className="flex flex-col items-center text-sm text-gray-600 gap-4">
-          <img className="w-12 h-12 object-contain" alt="Tailwind CSS" loading="lazy" width="48" height="48" src="https://cdn.simpleicons.org/docker" />
-           <p>Docker</p>
+          <img className="w-12 h-12 object-contain" alt="React" loading="lazy" width="48" height="48" src="https://cdn.simpleicons.org/typescript" />
+           <p>TypeScript</p>
         </div>
         {/* <div className="flex flex-col items-center text-sm text-gray-600 gap-4">
-          <Image src={fallback} alt="Tailwind CSS" width={50} height={50} />
-           <p>Python</p>
-        </div>
-        <div className="flex flex-col items-center text-sm text-gray-600 gap-4">
-          <Image src={fallback} alt="Docker" width={50} height={50} />
-           <p>Django</p>
+          <img className="w-12 h-12 object-contain" alt="Next.js" loading="lazy" width="48" height="48" src="https://i18nexus.com/_next/static/media/nextjs.e54be70c.svg"></img>
+           <p>Next.js</p>
         </div> */}
+        <div className="flex flex-col items-center text-sm text-gray-600 gap-4">
+          <img className="w-12 h-12 object-contain" alt="Node.js" loading="lazy" width="48" height="48" src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/nodedotjs.svg" />
+           <p>Node.js</p>
+        </div>        
       </div>
        <p className="text-center text-lg text-black">And More...</p>
     </section>
@@ -138,21 +122,23 @@ export default function Home() {
             </div>
           <div className="mx-2 my-4 p-4">
             <div className="flex justify-between items-center mb-4">
-              <h3 className="text-xl font-bold text-gray-900">LinkedIn Job Filter</h3>
+              <h3 className="text-xl font-bold text-gray-900">LinkedIn Custom Job Filter</h3>
               <p className="mr-4">2026</p>
             </div>
             <div className="font-sans text-[16px] max-w-full h-36">
-             <div className="mb-1"> <span className="font-bold"> • Built a LinkedIn job filtering app</span> using an AI agent to automatically filter and save job data into Google Sheets. <span className="font-bold"></span>  </div>
+             <div className="mb-1"> • Designed and implemented an automated <span className="font-bold"> ETL pipeline </span> to extract unstructured LinkedIn job text,  <span className="font-bold">transforming it into standardized data points </span>saved directly to Google Sheets.</div>
              <div className="mb-1"> • Utilised Apify to safely and efficiently scrape data. </div>
             </div>
             </div>
           <div className="flex flex-col mx-4">
             <div className="flex flex-wrap gap-2 justify-start mt-4 text-gray-700">
+              <span className="inline-flex border border-red-700 py-1 px-2 h-7 rounded-md">Data Processing</span>
               <span className="inline-flex border border-red-700 py-1 px-2 h-7 rounded-md">Automation</span>
+              <span className="inline-flex border border-red-700 py-1 px-2 h-7 rounded-md">Google API</span>
             </div>
             <div className="flex gap-2 mt-4 flex-wrap h-14">
-              <div className="flex items-center bg-gray-100 py-1 px-2 h-6 rounded-md text-gray-700">FastAPI</div>
               <div className="flex items-center bg-gray-100 py-1 px-2 h-6 rounded-md text-gray-700">Python</div>
+              <div className="flex items-center bg-gray-100 py-1 px-2 h-6 rounded-md text-gray-700">FastAPI</div>
               <div className="flex items-center bg-gray-100 py-1 px-2 h-6 rounded-md text-gray-700">React</div>
               <div className="flex items-center bg-gray-100 py-1 px-2 h-6 rounded-md text-gray-700">JavaScript</div>
               <div className="flex items-center bg-gray-100 py-1 px-2 h-6 rounded-md text-gray-700">Apify</div>
